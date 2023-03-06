@@ -1,0 +1,14 @@
+* {
+  margin: 0px 0px;
+  padding: 0px 0px;
+  color: white;
+}
+
+body {
+  background: #0b1d26;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
