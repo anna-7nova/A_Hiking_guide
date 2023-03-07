@@ -6,9 +6,80 @@
 
 body {
   background: #0b1d26;
+  display: grid;
+  grid-template-columns: 1fr 1526px 1fr;
+  grid-template-rows: min-content 1fr min-content;
 }
 
 header {
+  grid-column: 1 / 4;
+  margin: 30px 20px;
   display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-columns: min-content 1fr min-content;
 }
+
+header ul {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+header li {
+  list-style: none;
+  padding: 5px;
+  margin: auto 20px;
+}
+
+header button {
+  background-color: transparent;
+  border: none;
+}
+
+main {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+section .banner {
+  text-align: center;
+}
+
+footer {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  margin: 30px 20px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  justify-items: start;
+}
+
+footer ul {
+  padding: 5px;
+  margin: auto 20px;
+}
+
+footer li {
+  list-style: none;
+}
+
+/* 
+
+
+
+
+
+.banner {
+  min-height: 1220px;
+  background-image: url("../images/content/BG-1.png");
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit (300px, 1fr));
+} */
+
+/* footer li {
+  list-style: none;
+  padding: 5px;
+  margin: auto 20px;
+} */
