@@ -4,6 +4,12 @@
   color: white;
 }
 
+/* пока не разобралась как вставить картинку из макета, в какой тэг разместить, не хватило времени */
+/* .bg {
+  background-image: url(../images/content/BG-1.png);
+  position: relative;
+} */
+
 body {
   background: #0b1d26;
   display: grid;
